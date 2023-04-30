@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+    <div class=" container">
+        <form>
+            <div class="scroller">
+                <div class="heading">
+                    <h1>Product Survey from </h1>
+                    <p><b> Survey about product on different shopping app like Amazon, Myntra, Meesho etc.</b></p>
+                    <p class="demo">Required fields are followed by *</p>
+                </div>
+
+                <hr>
+
+
+                <h2>Personal information</h2>
+                <p>Name: * <input type="text" name="name" placeholder="shivani shinde" required></p>
+                <p>
+                    Gender* : Male<input type="radio" name="gender" id="male" />
+                    Female<input type="radio" name="gender" id="female" />
+                    Other<input type="radio" name="gender" id="other" required />
+                </p>
+                <p>
+                    Phone No: * <input type="number" name="phone no" id="phone no" placeholder="1020304050" required>
+                </p>
+                <p>
+                    Email: * <input type="email" name="email" id="email" placeholder="shiv123@gmail.com" required>
+                </p>
+                <p>
+                    pincode: * <input type="number" name="pincode" id="pincode" placeholder="413208" required>
+                </p>
+                <h2>Product Review</h2>
+                <p>
+                    Which shopping app is best for perticular product ?<br>
+                    Amazon<input type="radio" name="app" id="amazon" />
+                    Myntra<input type="radio" name="app" id="Myntra" />
+                    Meesho<input type="radio" name="app" id="Meesho" required/>
+                </p>
+                <p>
+                    How much you give rating to product ?<br>
+                    Excellent<input type="radio" name="rating" id="Excellent" />
+                    Good<input type="radio" name="rating" id="Good" />
+                    Bad<input type="radio" name="rating" id="Bad" required />
+                    
+
+                </p>
+                <p>
+                    Would you like to shop online in future ?<br>
+                    YES<input type="radio" name="answer" id="yes" />
+                    NO<input type="radio" name="answer" id="no" />
+                </p>
+                <p>
+                    
+                </p>
+                <div class="button">
+                    <input class="buttons" type="submit" value="Submit">
+                    <input class="buttons" type="reset">
+                </div>
+            </div>
+    </div>
+
+    </form>
+    </div>
+
+</body>
+
+</html>
