@@ -15,6 +15,7 @@ body{
     position: relative;
     text-align: center;
     font-size: 20px;
+    height: fit-content;
 }
 .heading{
     text-align: center;
